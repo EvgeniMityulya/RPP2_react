@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import { Timeline, TimelineItem } from 'vertical-timeline-component-for-react';
 import Adam from "../../assets/damsm.jpg"
 
 class Hilevich extends Component {
@@ -12,7 +11,7 @@ class Hilevich extends Component {
                     <p class="person_about">Ада́м Гло́бус (белор. Адам Глобус, также Адам Глёбус; наст. имя и фамилия Влади́мир Вячесла́вович Ада́мчик, белор. Уладзімір Вячаслававіч Адамчык; род. 29 сентября 1958) — советский и белорусский писатель, поэт, художник, издатель.</p>
                 </div>
 
-                <Timeline lineColor={'#ddd'}>
+                {/* <Timeline lineColor={'#ddd'}>
                     <TimelineItem
                         key="001"
                         dateText="1958 – 1970-е"
@@ -62,6 +61,8 @@ class Hilevich extends Component {
                         </p>
                     </TimelineItem>
                 </Timeline>
+
+                    */}
 
                 <div class="map-on-right">
                     <div class="awards-creativity">

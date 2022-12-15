@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { Timeline, TimelineItem } from 'vertical-timeline-component-for-react';
 import Boroda from "../../assets/Boroda.jpg"
 
 class Borodulin extends Component {
@@ -12,7 +11,7 @@ class Borodulin extends Component {
                     <p class="person_about">Рыго́р (Григо́рий) Ива́нович Бороду́лин (белор. Рыгор Іванавіч Барадулін; 24 февраля 1935, хутор Вересовка (ныне СЗ окраина дер. Тихоняты Сорочинского сельсовета), Ушачский район, Витебская область — 2 марта 2014, Минск) — советский и белорусский поэт, эссеист, редактор, переводчик. Народный поэт Беларуси (1992).</p>
                 </div>
 
-                <Timeline lineColor={'#ddd'}>
+                {/* <Timeline lineColor={'#ddd'}>
                     <TimelineItem
                         key="001"
                         dateText="1935 – 1945"
@@ -79,7 +78,7 @@ class Borodulin extends Component {
                         Умер 2 марта 2014 года в своей квартире в Минске на 80-м году жизни от болезни Паркинсона. Президент Республики Беларусь А. Г. Лукашенко направил родственникам Р. И. Бородулина соболезнование. Прощание и панихида по греко-католическому обряду прошли 4 марта 2014 года в Минске в Костёле Святого Симеона и Святой Елены. Белорусский поэт похоронен рядом с матерью на Ушачском кладбище в Витебской области, как и хотел поэт при жизни.
                         </p>
                     </TimelineItem>
-                </Timeline>
+                </Timeline> */}
 
                 <div class="map-on-right">
                     <div class="awards-creativity">

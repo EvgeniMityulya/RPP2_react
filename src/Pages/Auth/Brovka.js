@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import { Timeline, TimelineItem } from "vertical-timeline-component-for-react";
 import Brovka from "../../assets/BrovkaSm.jpg";
 
 class Hilevich extends Component {
@@ -20,7 +19,7 @@ class Hilevich extends Component {
           </p>
         </div>
 
-        <Timeline lineColor={"#ddd"}>
+         {/* <Timeline lineColor={"#ddd"}>
           <TimelineItem
             key="001"
             dateText="1910-e – 1920-e"
@@ -86,7 +85,7 @@ class Hilevich extends Component {
               доктор юридических наук, профессор БГУ.
             </p>
           </TimelineItem>
-        </Timeline>
+          </Timeline> */}
 
         <div class="map-on-right">
           <div class="awards-creativity">

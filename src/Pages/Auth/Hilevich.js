@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import { Timeline, TimelineItem }  from 'vertical-timeline-component-for-react';
 import Hilevichimg from "../../assets/Nil_Small.jpg"
 
 class Hilevich extends Component{    
@@ -13,7 +12,7 @@ class Hilevich extends Component{
                 <p class="person_about">Ни́л Семёнович Гиле́вич (белор. Ні́л Сымо́навіч Гіле́віч; 30 сентября 1931, дер. Слобода Логойского района Минской области — 29 марта 2016, Минск) — переводчик, литературовед, фольклорист, общественный деятель. Народный поэт Беларуси (1991), Заслуженный деятель науки Белорусской ССР (1980). Лауреат Государственной премии Белорусской ССР имени Янки Купалы (1980). Лауреат Международной премии имени Х. Ботева (1986). Кандидат филологических наук, профессор. Член Союза писателей СССР (1954).</p>
             </div>
             
-            <Timeline lineColor={'#ddd'}>
+             {/* <Timeline lineColor={'#ddd'}>
                 <TimelineItem
                     key="001"
                     dateText="1931 – 1940-е"
@@ -94,7 +93,7 @@ class Hilevich extends Component{
                     могиле Нила Гилевича был открыт надгробный памятник.
                     </p>
                 </TimelineItem>
-            </Timeline>
+                </Timeline> */}
             
             <div class="map-on-right">
                 <div class="awards-creativity">
