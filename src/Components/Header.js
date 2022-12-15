@@ -136,7 +136,7 @@ const Header = () => {
         </Container>
       </Navbar>
 
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
         <Switch>
           <Route exact path="/" component={Home} />
           <Route exact path="/authors" component={Authors} />
